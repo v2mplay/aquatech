@@ -1,13 +1,54 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="stylecadastro.css">
 </head>
+
 <body>
+
     <div class="header">
-        <h2>ESTAMOS NA TELA DE Cadastro</h2>
+        <div class="container">
+
+            <h1 class="titulo">AquaTech</h1>
+            <ul class="navbar">
+                <li>Inicial</li>
+                <li>Simulador</li>
+                <li>|</li>
+
+                <a href="login.html">
+                    <li>Login</li>
+                </a>
+
+                <a href="cadastro.html">
+                    <li>Cadastro</li>
+                </a>
+
+            </ul>
+        </div>
     </div>
+    <div class="banner">
+        <div class="cadastro">
+            <p style="color: rgb(207, 77, 142);"><h2 style="font-family: Arial, Helvetica, sans-serif;">Bem-Vindo!</h2></p>
+            <b style="font-family: Arial, Helvetica, sans-serif; font-size: 20px;">Nome:</b> <br>
+            <input type="text" id="ipt_nome" placeholder="Seu nome"> <br>
+            <b style="font-family: Arial, Helvetica, sans-serif; font-size: 20px;"> E-mail:</b> <br>
+            <input type="text" id="ipt_email" placeholder="meuemail@provedor.com"> <br>
+            <b style="font-family: Arial, Helvetica, sans-serif; font-size: 20px;">Senha:</b> <br>
+            <input type="password" id="ipt_senha" placeholder="******"> <br>
+            <b style="font-family: Arial, Helvetica, sans-serif; font-size: 20px;"> Confirmação da senha:</b> <br>
+            <input type="password" id="ipt_confirmar" placeholder="******"> <br>
+
+            <button onclick="cadastrar">Cadastrar</button>
+        </div>
+
+    </div>
+
+
+
 </body>
+
 </html>
